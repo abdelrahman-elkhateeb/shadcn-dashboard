@@ -7,14 +7,17 @@ import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuSeparator, DropdownMenuTrigger, DropdownMenuItem } from './ui/dropdown-menu'
 import { Button } from './ui/button'
 import { useTheme } from 'next-themes'
+import { SidebarTrigger, useSidebar } from './ui/sidebar'
 
 function Navbar() {
   const { theme, setTheme } = useTheme();
-  
+  const { toggleSidebar } = useSidebar();
+
   return (
     <nav className='p-4 flex items-center justify-between'>
       {/* LEFT */}
-      collapseButton
+      <SidebarTrigger className='cursor-pointer' />
+      {/* <Button variant="outline" onClick={toggleSidebar}>custom Button</Button> */}
       {/* RIGHT */}
       <div className='flex items-center gap-4'>
         <Link href="/">dashboard</Link>
