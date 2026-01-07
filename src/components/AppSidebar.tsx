@@ -63,7 +63,7 @@ function AppSidebar() {
         </SidebarMenu>
       </SidebarHeader>
 
-      <SidebarSeparator />
+      <SidebarSeparator className="m-0" />
 
       <SidebarContent>
         <SidebarGroup>
