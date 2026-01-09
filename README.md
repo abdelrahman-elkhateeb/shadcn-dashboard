@@ -77,5 +77,5 @@ npm install
 npm run dev
 
 
-📸 Screenshots
-
+ Screenshots
+![Dashboard Overview](public/dashboard-overview.png)
