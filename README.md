@@ -78,4 +78,4 @@ npm run dev
 
 
  Screenshots
-![Dashboard Overview](public/dashboard-overview.png)
+![Dashboard Overview](public/project screen shots (1).png)
