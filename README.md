@@ -75,7 +75,3 @@ This project demonstrates real-world dashboard patterns including navigation, ch
 ```bash
 npm install
 npm run dev
-
-
- Screenshots
-![Dashboard Overview](public/project screen shots (1).png)
