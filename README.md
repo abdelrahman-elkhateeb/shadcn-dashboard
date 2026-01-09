@@ -70,6 +70,9 @@ This project demonstrates real-world dashboard patterns including navigation, ch
 - Screen-reader friendly (`sr-only`)
 - Accessible color contrast and focus states
 
+## Screenshots
+![Dashboard Overview](public/project screen shots (1).png)
+
 ## Installation
 
 ```bash
