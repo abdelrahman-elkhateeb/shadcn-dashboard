@@ -1,7 +1,7 @@
 import {
   Home,
   Inbox,
-  Calendar,
+  DollarSign,
   Search,
   Settings,
   User2,
@@ -26,14 +26,14 @@ const items = [
     icon: Home,
   },
   {
+    title: "Payment",
+    url: "/payments",
+    icon: DollarSign,
+  },
+  {
     title: "Inbox",
     url: "#",
     icon: Inbox,
-  },
-  {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
   },
   {
     title: "Search",
@@ -54,7 +54,7 @@ function AppSidebar() {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
-              <Link href="/">
+              <Link href="/users/user">
                 <Image src={italianCroissant} alt="logo" width={20} height={20} className="rounded-full" />
                 <span>croissant Dev</span>
               </Link>
@@ -176,7 +176,7 @@ function AppSidebar() {
                 </SidebarMenuSubItem>
               </SidebarMenuSub>
             </SidebarMenuItem>
-            
+
           </SidebarGroupContent>
         </SidebarGroup>
 
