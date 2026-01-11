@@ -18,7 +18,7 @@ import {
   SheetTrigger
 } from "@/components/ui/sheet"
 import { BadgeCheck, Candy, Citrus, Shield } from "lucide-react"
-import image from "../../../../public/italian croissant.jpg"
+import image from "../../../../../public/italian croissant.jpg"
 import Image from "next/image"
 import { AvatarFallback } from "@radix-ui/react-avatar"
 import AppLineChart from "@/components/AppLineChart"

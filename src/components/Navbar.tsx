@@ -23,7 +23,7 @@ function Navbar() {
         <Link href="/">dashboard</Link>
 
         {/* theme menu */}
-        <DropdownMenu>
+        <DropdownMenu >
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon">
               <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
@@ -43,8 +43,8 @@ function Navbar() {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        {/* user menu */}
         <DropdownMenu>
+        {/* user menu */}
 
           <DropdownMenuTrigger>
             <Avatar>
